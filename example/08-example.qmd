@@ -59,7 +59,7 @@ We want data from 1995-2015, so we set the start and end years accordingly. The 
 ```{r get-wdi-data, eval=FALSE}
 indicators <- c(life_expectancy = "SP.DYN.LE00.IN",  # Life expectancy
                 access_to_electricity = "EG.ELC.ACCS.ZS",  # Access to electricity
-                co2_emissions = "EN.ATM.CO2E.PC",  # CO2 emissions
+                co2_emissions = "EN.GHG.ALL.MT.CE.AR5",  # CO2 emissions
                 gdp_per_cap = "NY.GDP.PCAP.KD")  # GDP per capita
 
 wdi_raw <- WDI(country = "all", indicators, extra = TRUE, 
@@ -308,7 +308,7 @@ ggplot(sa_co2, aes(x = year, y = rank, color = country)) +
   scale_y_reverse(breaks = 1:8)
 ```
 
-Afghanistan and Nepal switched around for the number 1 spot, while India dropped from 4 to 6, switching places with Pakistan.
+Afghanistan and Nepal switched around for the number 1 spot, while Pakistan bounced around between 4, 5, and 6.
 
 As with the slopegraph, there are 8 different colors in the legend and it's hard to line them all up with the different lines, so we can plot the text directly instead. We'll use `geom_text()` again. We don't need to repel anything, since the text should fit in each row just fine. We need to change the `data` argument in `geom_text()` though and filter the data to only include one year, otherwise we'll get labels on every point, which is excessive. We can also adjust the theme and colors to make it cleaner.
 

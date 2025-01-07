@@ -16,3 +16,4 @@ projects/*.zip
 **/*_cache/*
 
 /.luarc.json
+/_targets/*

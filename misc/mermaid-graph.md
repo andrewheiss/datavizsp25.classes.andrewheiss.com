@@ -9,7 +9,6 @@ graph LR
     xb91d3491b4ad9fcb(["slide_html_05_slides"]):::queued --> xd5b644ec3aff4c6c(["slide_pdf_05_slides"]):::queued
     x3c2fdb322a18671d(["slide_html_02_slides"]):::queued --> xd854d4a9c89216ab(["slide_pdf_02_slides"]):::queued
     x2fc1e0904d94beca["slide_rmd_11_slides"]:::queued --> xcc55386321c9e7e1(["slide_html_11_slides"]):::queued
-    x830adcacfab4076a(["deploy_script"]):::completed --> xd6774b1369562ec8(["deploy_site"]):::queued
     x5fee94802c729361(["site"]):::queued --> xd6774b1369562ec8(["deploy_site"]):::queued
     x78de70e29b2b5fc4(["slide_rmd_05_slides_files"]):::completed --> x3dd54da269b2735f["slide_rmd_05_slides"]:::queued
     xdf57381c885cd00f(["slide_rmd_02_slides_files"]):::completed --> x4d45c10c788cbb1e["slide_rmd_02_slides"]:::queued
@@ -183,4 +182,5 @@ graph LR
     x527abcc5677dae68(["build_data"]):::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
     x5d6dea1a226f7537(["copy_data"]):::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
     x62035c80c1931dd8["proj_02_example"]:::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
+    x830adcacfab4076a(["deploy_script"]):::queued --> x830adcacfab4076a(["deploy_script"]):::queued
   end

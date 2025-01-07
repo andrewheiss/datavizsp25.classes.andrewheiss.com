@@ -4,8 +4,8 @@
 
 # Data Visualization with R <a href='https://datavizsp25.classes.andrewheiss.com/'><img src='files/favicon-512.png' align="right" height="139" /></a>
 
-[PMAP 8551/4551 • Fall
-2024](https://datavizsp25.classes.andrewheiss.com/)  
+[PMAP 8551/4551 • Spring
+2025](https://datavizsp25.classes.andrewheiss.com/)  
 [Andrew Heiss](https://www.andrewheiss.com/) • Andrew Young School of
 Policy Studies • Georgia State University
 
@@ -13,7 +13,7 @@ Policy Studies • Georgia State University
 
 **[Quarto](https://quarto.org/) +
 [{targets}](https://docs.ropensci.org/targets/) +
-[{renv}](https://rstudio.github.io/renv/) = magic! 🪄**
+[{renv}](https://rstudio.github.io/renv/) = magic! 🧝‍♂️**
 
 ------------------------------------------------------------------------
 
@@ -83,7 +83,6 @@ graph LR
     xb91d3491b4ad9fcb(["slide_html_05_slides"]):::queued --> xd5b644ec3aff4c6c(["slide_pdf_05_slides"]):::queued
     x3c2fdb322a18671d(["slide_html_02_slides"]):::queued --> xd854d4a9c89216ab(["slide_pdf_02_slides"]):::queued
     x2fc1e0904d94beca["slide_rmd_11_slides"]:::queued --> xcc55386321c9e7e1(["slide_html_11_slides"]):::queued
-    x830adcacfab4076a(["deploy_script"]):::completed --> xd6774b1369562ec8(["deploy_site"]):::queued
     x5fee94802c729361(["site"]):::queued --> xd6774b1369562ec8(["deploy_site"]):::queued
     x78de70e29b2b5fc4(["slide_rmd_05_slides_files"]):::completed --> x3dd54da269b2735f["slide_rmd_05_slides"]:::queued
     xdf57381c885cd00f(["slide_rmd_02_slides_files"]):::completed --> x4d45c10c788cbb1e["slide_rmd_02_slides"]:::queued
@@ -146,7 +145,7 @@ graph LR
     xa1de4aa623defc27(["data_fred"]):::queued --> x5fee94802c729361(["site"]):::queued
     x67ad2d1638cd80fd(["data_geocoded"]):::queued --> x5fee94802c729361(["site"]):::queued
     xde555170da93daa8(["data_little_women_tagged"]):::queued --> x5fee94802c729361(["site"]):::queued
-    xcb203eb03e2sp2512(["data_wdi_annotations"]):::queued --> x5fee94802c729361(["site"]):::queued
+    xcb203eb03e2f2412(["data_wdi_annotations"]):::queued --> x5fee94802c729361(["site"]):::queued
     xea52756aad62ec59(["data_wdi_comparisons"]):::queued --> x5fee94802c729361(["site"]):::queued
     x8dfde51a0d28871a(["data_wdi_lifeexp"]):::queued --> x5fee94802c729361(["site"]):::queued
     x828115bd1ed512ad(["data_wdi_parliament"]):::queued --> x5fee94802c729361(["site"]):::queued
@@ -201,7 +200,7 @@ graph LR
     x67ad2d1638cd80fd(["data_geocoded"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
     xde555170da93daa8(["data_little_women_tagged"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
     xed5ceb9aca28295f(["data_mpg"]):::completed --> x527abcc5677dae68(["build_data"]):::queued
-    xcb203eb03e2sp2512(["data_wdi_annotations"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
+    xcb203eb03e2f2412(["data_wdi_annotations"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
     xea52756aad62ec59(["data_wdi_comparisons"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
     x8dfde51a0d28871a(["data_wdi_lifeexp"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
     x828115bd1ed512ad(["data_wdi_parliament"]):::queued --> x527abcc5677dae68(["build_data"]):::queued
@@ -233,7 +232,7 @@ graph LR
     x14ff0c0a3b581a77["proj_11_exercise"]:::queued --> x1fd9ab2cf9c514cb(["zip_proj_11_exercise"]):::queued
     x9b58171ed1d6384b["slide_rmd_15_slides"]:::queued --> xc8be1f356b80a5ac(["slide_html_15_slides"]):::queued
     xf97356b842ce00f0(["slide_html_14_slides"]):::queued --> x3c87d689cb981c63(["slide_pdf_14_slides"]):::queued
-    xade5e2c3ae084ff6(["get_data_wdi_annotations"]):::queued --> xcb203eb03e2sp2512(["data_wdi_annotations"]):::queued
+    xade5e2c3ae084ff6(["get_data_wdi_annotations"]):::queued --> xcb203eb03e2f2412(["data_wdi_annotations"]):::queued
     xb9d12f12d1b272aa(["slide_rmd_14_slides_files"]):::queued --> xa82e4c2714985d36["slide_rmd_14_slides"]:::queued
     x527abcc5677dae68(["build_data"]):::queued --> xf262e3623e2f4b07(["zip_proj_07_exercise"]):::queued
     x5d6dea1a226f7537(["copy_data"]):::queued --> xf262e3623e2f4b07(["zip_proj_07_exercise"]):::queued
@@ -257,6 +256,7 @@ graph LR
     x527abcc5677dae68(["build_data"]):::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
     x5d6dea1a226f7537(["copy_data"]):::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
     x62035c80c1931dd8["proj_02_example"]:::queued --> x76c7e96f6128e2c3(["zip_proj_02_example"]):::queued
+    x830adcacfab4076a(["deploy_script"]):::queued --> x830adcacfab4076a(["deploy_script"]):::queued
   end
 ```
 

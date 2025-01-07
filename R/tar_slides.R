@@ -57,12 +57,26 @@ render_xaringan <- function(slide_path) {
 # Use pagedown to convert xaringan HTML slides to PDF. Return a relative path to
 # the PDF to keep targets happy.
 #
-# Slides for sessions 12 are huge, so use chromote to convert them instead
+# Slides for sessions 12 and 15 are huge, so use chromote to convert them instead
+#
+# But that doesn't work inside renv or targets for whatever reasons, so this has
+# to be done manually from a different non-renv session:
+#
+# renderthis::to_pdf(
+#   from = "~/Sites/courses/datavizsp25/slides/12-slides.html", 
+#   to = "~/courses/datavizsp25/slides/12-slides.pdf", 
+#   complex_slides = TRUE
+# )
+
 xaringan_to_pdf <- function(slide_path) {
   path_sans_ext <- tools::file_path_sans_ext(slide_path)
 
   if (path_sans_ext == "slides/12-slides") {
     return(here_rel("slides/12-slides.pdf"))
+  }
+
+  if (path_sans_ext == "slides/15-slides") {
+    return(here_rel("slides/15-slides.pdf"))
   }
   
   renderthis::to_pdf(
