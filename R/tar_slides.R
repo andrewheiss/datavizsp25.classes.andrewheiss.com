@@ -64,7 +64,7 @@ render_xaringan <- function(slide_path) {
 #
 # renderthis::to_pdf(
 #   from = "~/Sites/courses/datavizsp25/slides/12-slides.html", 
-#   to = "~/courses/datavizsp25/slides/12-slides.pdf", 
+#   to = "~/Sites/courses/datavizsp25/slides/12-slides.pdf", 
 #   complex_slides = TRUE
 # )
 
