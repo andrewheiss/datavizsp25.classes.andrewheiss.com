@@ -13,7 +13,7 @@ Policy Studies • Georgia State University
 
 **[Quarto](https://quarto.org/) +
 [{targets}](https://docs.ropensci.org/targets/) +
-[{renv}](https://rstudio.github.io/renv/) = magic! 🧝‍♂️**
+[{renv}](https://rstudio.github.io/renv/) = magic! 🧙**
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ Policy Studies • Georgia State University
     Otherwise, download and install [Quarto](https://quarto.org/)
     separately.
 2.  Open `datavizsp25.Rproj` to open an [RStudio
-    Project](https://r4ds.had.co.nz/workflow-projects.html).
+    Project](https://r4ds.hadley.nz/workflow-scripts.html#projects).
 3.  If it’s not installed already, R *should* try to install the [{renv}
     package](https://rstudio.github.io/renv/) when you open the RStudio
     Project for the first time. If you don’t see a message about package

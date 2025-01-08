@@ -1,19 +1,6 @@
 ---
 title: "AI, LLMs, and BS"
 reference-location: margin
-references:
-- id: Frankfurt:2005
-  author:
-    - family: Frankfurt
-      given: Harry G.
-  citation-key: Frankfurt:2005
-  event-place: Princeton
-  issued:
-    - year: 2005
-  publisher: Princeton University Press
-  publisher-place: Princeton
-  title: On bullshit
-  type: book
 ---
 
 I *highly recommend* **not** using ChatGPT or similar large language models (LLMs) in this class.

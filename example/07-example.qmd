@@ -335,11 +335,11 @@ Neat! Now we can see how big these different coefficients are and how close they
 ## Marginal effects plots
 
 ::: {.callout-tip}
-### 2024 update!
+### 2025 update!
 
 Since recording the video for this section, lots of things have changed in the R world to make finding predicted values and marginal effects *a lot* easier. (This is why I had you [read my guide to marginal things](https://www.andrewheiss.com/blog/2022/05/20/marginalia/) as part of the readings for this session.) [The {marginaleffects} R package](https://vincentarelbundock.github.io/marginaleffects/) makes it really nice and easy to get predicted values of an outcome while holding everything else constant—you don't need to plug values in manually anymore like this section shows.
 
-There's an example of using {marginaleffects} [down below](#predicted-values-and-marginal-effects-in-2024).
+There's an example of using {marginaleffects} [down below](#predicted-values-and-marginal-effects-in-2025).
 
 :::
 
@@ -453,7 +453,7 @@ ggplot(predicted_values_fancy, aes(x = windSpeed, y = .fitted)) +
 That's so neat! Temperatures go down slightly as cloud cover increases. If we wanted to improve the model, we'd add an interaction term between cloud cover and windspeed so that each line would have a different slope in addition to a different intercept, but that's beyond the scope of this class.
 
 
-## Predicted values and marginal effects in 2024
+## Predicted values and marginal effects in 2025
 
 Instead of using `expand_grid()` and `augment()` to create and plug in a mini dataset of variables to move up and down, we can use [the {marginaleffects} package](https://vincentarelbundock.github.io/marginaleffects/) to simplify life!
 
