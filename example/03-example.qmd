@@ -1,7 +1,7 @@
 ---
 title: "Mapping data to graphics"
-date: "2024-09-09"
-date_end: "2024-09-13"
+date: "2025-01-27"
+date_end: "2025-01-31"
 ---
 
 For this example, I'm going to use real world data to demonstrate the typical process for loading data, cleaning it up a bit, and mapping specific columns of the data onto the parts of a graph using the grammar of graphics and `ggplot()`. 
