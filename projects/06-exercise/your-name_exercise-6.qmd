@@ -53,6 +53,7 @@ Make a histogram of *logged* GDP per capita for 1997 only, across all five conti
 #| label: filter-gapminder-1997
 
 # Create a filtered dataset
+gapminder
 ```
 
 ```{r}
