@@ -3,9 +3,10 @@ title: "Graphic design"
 date: "2025-01-27"
 ---
 
-## Task 1: Reflection
+## Task 1: Weekly check-in
 
-Write your reflection for the day's readings.
+Write your [weekly check-in](/assignment/weekly-check-in.qmd) for the week's readings.
+
 
 ## Task 2: CRAP critique
 
@@ -37,4 +38,4 @@ Critique your new design using the CRAP checklist. How did you use contrast, rep
 
 ## Turning everything in
 
-You don't need to worry about using Quarto for this assignment (unless you really want to). On iCollege, submit a PDF of your new poster, along with a PDF of your reflection and your critiques of the original poster and your new poster.
+You don't need to worry about using Quarto for this assignment (unless you really want to). On iCollege, submit a PDF of your new poster, along with a PDF of your check-in and your critiques of the original poster and your new poster.

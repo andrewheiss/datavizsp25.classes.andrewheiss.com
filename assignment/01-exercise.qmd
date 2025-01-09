@@ -50,9 +50,19 @@ Before starting this exercise, make sure you complete everything at [the lesson 
    cars <- read_csv("data/cars.csv")
    ```
    
-   # Reflection
+   # Weekly check-in
    
-   Replace this text with your reflection
+   Three interesting or exciting things:
+
+   1. Something
+   2. Something
+   3. Something
+
+   Three muddy or unclear things:
+
+   1. Something
+   2. Something
+   3. Something
    
    
    # My first plots
@@ -86,7 +96,7 @@ Before starting this exercise, make sure you complete everything at [the lesson 
 
 ## Task 2: Work with R
 
-1. Add your reading reflection to the appropriate place in the Quarto file. You can type directly in RStudio if you want (though there's no spell checker), or you can type it in Word or Google Docs and then paste it into RStudio.
+1. Add your [weekly check-in](/assignment/weekly-check-in.qmd) to the appropriate place in the Quarto file. You can type directly in RStudio if you want (though there's no spell checker), or you can type it in Word or Google Docs and then paste it into RStudio.
 
 2. Remove the text that says "PUT CHUNK HERE" and insert a new R code chunk. Either type <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>i</kbd> on Windows, or <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> on macOS, or use the "Insert Chunk" menu:
 

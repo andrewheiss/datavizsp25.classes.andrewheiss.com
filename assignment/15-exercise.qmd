@@ -6,9 +6,9 @@ engine: knitr
 
 For your final exercise, you won't do anything with R. You'll instead have two writing tasks. You can write these in Quarto if you want, or you can do it in Word or Google Docs or wherever else. 
 
-## Task 1: Storytelling reflection
+## Task 1: Storytelling check-in
 
-Write your standard reflection about the storytelling readings and videos.
+Write your standard check-in (three interesting things; three muddy things).
 
 
 ## Task 2: Summary reflection
@@ -26,6 +26,6 @@ You might explore a few of these summative questions (**but definitely don't jus
 
 ## Turning everything in
 
-When you're all done, upload the document with both reflection to iCollege.
+When you're all done, upload the document with both tasks to iCollege.
 
 `r emoji::emoji("tada")` Congratulations! You did it! `r emoji::emoji("tada")`

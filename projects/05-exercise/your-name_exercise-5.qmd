@@ -15,9 +15,19 @@ format:
 
 ---
 
-# Task 1: Reflection
+# Task 1: Weekly check-in
 
-Put your reflection here
+Three interesting or exciting things:
+
+1. Something
+2. Something
+3. Something
+
+Three muddy or unclear things:
+
+1. Something
+2. Something
+3. Something
 
 
 # Task 2: Ugly plot
