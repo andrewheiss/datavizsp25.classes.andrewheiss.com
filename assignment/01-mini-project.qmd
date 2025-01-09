@@ -45,7 +45,7 @@ Here's what you need to do:
 
 5. **Summarize** the data somehow. The raw data has more than 100,000 rows, which means you'll need to aggregate the data (`filter()`, `group_by()`, and `summarize()` will be your friends). Consider looking at the number of sightings per borough, per year, per dwelling type, etc., or a combination of these, like the change in the number sightings across the 5 boroughs between 2010 and 2016. 
 
-6. **Create** an appropriate visualization based on the data you summarized.
+6. **Create** ***one*** appropriate visualization based on the data you summarized. Just make one plot. That's all. **One**.
 
 7. **Write** a memo (no word limit) explaining your process. I'm specifically looking for a discussion of the following:
 
