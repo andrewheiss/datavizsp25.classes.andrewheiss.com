@@ -33,7 +33,7 @@ Everyone learns at different speeds, so it's hard to give an exact number of hou
 
 With more and more practice and time, you'll get the hang of the syntax and it'll get easier and faster—I promise! Push through the first few weeks and you should be good!
 
-And remember [the 30-minute rule](news/2025-01-13_reaching-out-when-stuck.qmd)! If you find yourself spiraling into a problem andsinking hours into it, **stop**.
+And remember [the 30-minute rule](/news/2025-01-13_reaching-out-when-stuck.qmd)! If you find yourself spiraling into a problem andsinking hours into it, **stop**.
 
 
 ### Will we cover {X}? 
