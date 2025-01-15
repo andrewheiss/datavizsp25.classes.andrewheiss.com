@@ -27,19 +27,6 @@ slide_details <- tibble::tribble(
 - {{< fa arrow-up-right-from-square >}} [Communicating Uncertainty When Lives Are on the Line](https://eagereyes.org/blog/2017/communicating-uncertainty-when-lives-are-on-the-line)
 - {{< fa arrow-up-right-from-square >}} Cédric Scherer, ["Visualizing distributions with raincloud plots with ggplot2"](https://www.cedricscherer.com/2021/06/06/visualizing-distributions-with-raincloud-plots-with-ggplot2/)
 
-### Possible questions to reflect on
-
-::: {.callout-warning}
-#### This is not a required list!
-
-Remember, you don't need to answer all of these—or even any of them! These are just here to help guide your thinking. **All that matters is that you show good engagement with the readings.**
-:::
-
-- Why is it important to deal with uncertainty in data?
-- What was good or bad about the New York Times' 2016 live election guage?
-- Why is it so hard to visualize uncertainty?
-- Why is it so hard to communicate uncertainty to others?
-
 
 ## Slides
 

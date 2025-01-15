@@ -27,19 +27,6 @@ slide_details <- tibble::tribble(
 - {{< fa brands vimeo >}} Jonathan Schwabish, ["Better Data Communication,"](https://vimeo.com/230757062) National Bureau of Economic Research
 - {{< fa arrow-up-right-from-square >}} [Why People Make Bad Charts (and What to Do When it Happens)](https://flowingdata.com/2018/06/28/why-people-make-bad-charts-and-what-to-do-when-it-happens/)
 
-### Possible questions to reflect on
-
-::: {.callout-warning}
-#### This is not a required list!
-
-Remember, you don't need to answer all of these—or even any of them! These are just here to help guide your thinking. **All that matters is that you show good engagement with the readings.**
-:::
-
-- Why are stories so powerful?
-- How are stories related to truth?
-- Is it ethical to emphasize certain aspects of the facts in data more than others? How do you decide which facts to use to convince audiences?
-- When you're telling a story about data, you're inherently manipulating audience emotions. Is that okay?
-
 
 ## Slides
 

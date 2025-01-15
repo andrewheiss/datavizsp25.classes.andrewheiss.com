@@ -40,19 +40,6 @@ slide_details <- tibble::tribble(
 - {{< fa arrow-up-right-from-square >}} [How To Fix a Toilet (And Other Things We Couldn't Do Without Search)](http://how-to-fix-a-toilet.com/)
 
 
-### Possible questions to reflect on
-
-::: {.callout-warning}
-#### This is not a required list!
-
-Remember, you don't need to answer all of these—or even any of them! These are just here to help guide your thinking. **All that matters is that you show good engagement with the readings.**
-:::
-
-- When is it okay (or not) to truncate the y-axis?
-- It is remarkably easy to mislead people with many of these chart types. Why? How can you avoid the same mistakes?
-- All these types of charts are good at communicating change over time, but some are more appropriate in different situations. When is it best to use these different types (e.g. line graphs vs. area graphs vs. horizon charts vs. heatmaps, etc.)?
-
-
 ## Slides
 
 The slides for this week's lesson are available online as an HTML file. Use the buttons below to open the slides either as an interactive website or as a static PDF (for printing or storing for later). You can also click in the slides below and navigate through them with your left and right arrow keys.
