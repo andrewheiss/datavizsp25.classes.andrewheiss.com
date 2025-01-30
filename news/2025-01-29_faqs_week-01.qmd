@@ -42,7 +42,7 @@ I'd recommend rendering as HTML often as you work on the exercise. Rendering as 
 Oh man, this is one of the trickiest parts of the class, and it's all Google's fault.
 
 ::: {.callout-note}
-### Google, Apple, and the (over)simplification of file systems
+#### Google, Apple, and the (over)simplification of file systems
 
 There's a bizarre ([and well documented!](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)) generational blip of people having a more intuitive understanding of files and folders. Before the 1980s, people learning how to use computers had to learn how files and folders worked because it was a brand new metaphor for thinking about items on computers. From the 1990s–2000s, sorting and moving and copying files and folders was a standard part of working with computers. 
 
@@ -129,7 +129,7 @@ The average MPG for the 3 two-seater cars with 15 MPG is, unsurprisingly, 15 MPG
 Check out [these animations](https://www.andrewheiss.com/blog/2024/04/04/group_by-summarize-ungroup-animations/) to help with the intuition of grouping, like these:
 
 ::: {.panel-tabset}
-## `group_by(cat1)`
+#### `group_by(cat1)`
 
 ```{=html}
 <video controls width="100%" style="display: block; margin: auto;">
@@ -137,7 +137,7 @@ Check out [these animations](https://www.andrewheiss.com/blog/2024/04/04/group_b
 </video>
 ```
 
-## `group_by(cat2)`
+#### `group_by(cat2)`
 
 ```{=html}
 <video controls width="100%" style="display: block; margin: auto;">

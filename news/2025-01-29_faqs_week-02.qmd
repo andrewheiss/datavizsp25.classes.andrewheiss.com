@@ -27,7 +27,7 @@ I have a few strategies for encouraging judgment-free curiosity in this class:
 
 1. **Less informative grading**: Researchers who study pedagogy (i.e. teaching methods) have long found evidence that less informative grading improves student motivation. In 2024 two economists published a paper that found national-level evidence for this idea based a change in national policy on grading systems in Sweden [@CollinsLundstedt:2024]. Sweden had long used a four-level grading system in its public school sytem: fail, pass, pass with distinction, and pass with special distinction. In the 2012/2013 academic year, though, they switched to an American-style A–F system. Nationally, student performance dropped significantly—graduation rates dropped, grades dropped, and motivation dropped. 
 
-   Granular grading systems (A, A−, B+, B, etc.) actually hurt student motivation because lots of effort is spent trying to move up the scale (i.e. thinking "If I can just get two more questions right, on this assignment, I'll go from a B+ to an A−"). 
+   Granular grading systems (A, A−, B+, B, etc.) actually hurt student motivation because lots of effort is spent trying to move up the scale (i.e. thinking "If I can just get two more questions right on this assignment, I'll go from a B+ to an A−"). 
    
    Less informative systems actually *increase* motivation because you're not worried about exact point totals and can instead have space to play around, make mistakes, and be curious.
 
