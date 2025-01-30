@@ -44,6 +44,8 @@
     text: "Don’t install packages in your document"
   - id: "clean-up-warnings-and-messages"
     text: "Clean up warnings and messages"
+  - id: "global-chunk-options"
+    text: "Global chunk options"
   - id: "fancy-document-settings"
     text: "Fancy document settings"
   - id: "chunk-names"
@@ -55,6 +57,12 @@
   date: "2025-01-29T16:43:00"
   href: "/news/2025-01-29_faqs_week-01.html"
   headings:
+  - id: "whats-the-difference-between-r-markdown-and-quarto"
+    text: "What’s the difference between R Markdown and Quarto?"
+  - id: "rendered-document-format-for-icollege"
+    text: "Rendered document format for iCollege"
+  - id: "why-does-it-matter-where-we-put-files-like-cars.csv"
+    text: "Why does it matter where we put files like <code>cars.csv</code>?"
   - id: "how-does-group_by-work-why-did-we-have-to-group-by-class-and-not-cty-and-class"
     text: "How does <code>group_by()</code> work? Why did we have to group by <code>class</code>
       and not <code>cty</code> and <code>class</code>?"
