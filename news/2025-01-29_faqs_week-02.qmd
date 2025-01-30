@@ -1,0 +1,194 @@
+---
+title: "Week 2 FAQs"
+date: "2025-01-29T17:25"
+categories: [FAQs]
+---
+
+Hi everyone!
+
+Since exercise 2 involved no code, I don't have much in the way of code tips or anything, but I do have some responses to questions that a lot of you had!
+
+
+### Why do you use ✓s for grades? 
+
+Many of you wondered why I didn't take different points off for wrong or slightly wrong answers in the first exercise (not so much with this exercise 2, since it was just a redesign). You're used to more standard grading practices where you lose points for minor errors and whatnot.
+
+I've never liked this system of grading and have always tried to avoid it. I believe that curiosity is essential to learning. Paranoia over missing a decimal point in an answer kills curiosity.
+
+There's a scene in season 1 of *Ted Lasso* where Ted cites a [made-up](https://www.snopes.com/fact-check/be-curious-not-judgmental-walt-whitman/) quote by Walt Whitman ([see timestamp 2:15 here](https://youtu.be/5x0PzUoJS-U?si=YSJvAoKo9UXx96I-&t=135)):
+
+> Be curious, not judgmental.
+
+Despite the fact that Walt Whitman never said this, I really like this sentiment, and I think it 100% applies to learning. 
+
+[One of the objectives of this class](https://datavizsp25.classes.andrewheiss.com/syllabus.html#course-objectives) is "Be curious and confident in consuming and producing data visualizations"—from even before Ted Lasso was a thing. I want you to embrace curiousity when learning this R and design stuff. I don't want to spend all my time judging every little error, and I don't want you to live in fear of judgment.
+
+I have a few strategies for encouraging judgment-free curiosity in this class:
+
+1. **Less informative grading**: Researchers who study pedagogy (i.e. teaching methods) have long found evidence that less informative grading improves student motivation. In 2024 two economists published a paper that found national-level evidence for this idea based a change in national policy on grading systems in Sweden [@CollinsLundstedt:2024]. Sweden had long used a four-level grading system in its public school sytem: fail, pass, pass with distinction, and pass with special distinction. In the 2012/2013 academic year, though, they switched to an American-style A–F system. Nationally, student performance dropped significantly—graduation rates dropped, grades dropped, and motivation dropped. 
+
+   Granular grading systems (A, A−, B+, B, etc.) actually hurt student motivation because lots of effort is spent trying to move up the scale (i.e. thinking "If I can just get two more questions right, on this assignment, I'll go from a B+ to an A−"). 
+   
+   Less informative systems actually *increase* motivation because you're not worried about exact point totals and can instead have space to play around, make mistakes, and be curious.
+
+   Hence the ✓+, ✓, and ✓− system I use. 
+
+   I'm not grading your coding ability, I'm not checking each line of code to make sure it produces some exact final figure, and I'm not looking for perfect. Also note that a ✓ does not require 100% completion—you will sometimes get stuck with weird errors that you can't solve, or the demands of pandemic living might occasionally become overwhelming. I'm looking for good faith effort, that's all. Try hard, do good work, and you'll get a ✓.
+
+   I reserve ✓−s for when the effort is bare minimum or noticably not completed (e.g., the code is copied/pasted from somewhere on the internet and doesn't run; your weekly check-in has just a couple words for each point; you only turn in one page of the assignment; etc.). I'll sometimes use intermediate ✓s like ✓−+ when work isn't *quite* fully ✓− and not *quite* fully ✓.
+
+2. **Exciting and muddy things**: Your weekly check-ins let you tell me what new and exciting things you're learning, and they let me know where you're getting stuck so I can get things unstuck. These don't need to be written formally with citations or anything—use these to tell me the cool things you're finding. This is space for judgment-free curiosity!
+
+3. **#TidyTuesday**: The whole point of the [#TidyTuesday](/assignment/tidy-tuesday.qmd) assignment is to let you do *something* neat with R. It's entirely self directed. Make something cool.
+
+
+### Why does `#` mean both headings and code comments?
+
+This is a tricky quirk of using Quarto. In Markdown, the `#` symbol is how you [create headings](/news/2025-01-29_cleaner-nicer-qmd-output.qmd#headings-that-aren't-headings), and you can combine them to create nested headings and subheadings:
+
+``` default
+# Task 1: Weekly check-in
+
+Some text
+
+# Task 2: Something
+
+## A subheading
+
+Some more text
+```
+
+You make these headings *outside* of R code chunks.
+
+In R, the `#` is how you [add comments to your code](/resource/style.qmd#comments). Anything after a `#` doesn't count as code and won't run. You can add comments to whole lines:
+
+```{.r}
+# Filter the mpg data, group it, and summarize it
+mpg |> 
+  filter(cty > 10) |>
+  group_by(class) |>
+  summarize(avg_hwy = mean(hwy))
+```
+
+Or you can add comments to the ends of lines:
+
+```{.r}
+mpg |> 
+  filter(cty > 10) |>  # Only rows where cty is 10+
+  group_by(class) |>  # Divide into class groups
+  summarize(avg_hwy = mean(hwy))  # Find the average hwy in each group
+```
+
+So, 
+
+- When writing text, `#` creates headings
+- When writing code in an R chunk, `#` creates comments
+
+They can even get used in the same document:
+
+```` markdown
+# Task 1: Weekly check-in
+
+Some text
+
+# Task 2: Something
+
+## A subheading
+
+Some more text
+
+```{{r}}
+# Here's some code
+ggplot(mpg, ...) + 
+  geom_point()
+```
+
+And some more text
+````
+
+
+### I will never do anything with graphic design—why did we have to learn these principles?
+
+Yes you will :)
+
+For one thing, all the graphs you'll make in the rest of this class are designed objects. For the mini projects and the final project, you'll need to make well-designed outputs.
+
+But even outside of this class, you will use these principles. If you write a report, you'll likely use headings, and you'll need to think about their alignment and proximity and contrast. If you do any sort of research, you'll need to make images for your papers, and you'll need to make posters for conferences, and you'll need to make slides for presentations. You will even *inevitably* have to make some sort of sign—even something like "The meeting scheduled for noon has been moved to room BLAH at 1 PM"—to put on a conference room door, or whatever.
+
+As I mentioned in the lecture, once you know about CRAP, you'll start using it everywhere—every billboard, poster, book, website, etc. you see, you'll try to identify what the designed tried to align each element with, which fonts they used, why they used the colors they did, why they grouped the text and images the way they did, and so on. Or when you come across something that you intuitively feel is ugly and poorly designed, you'll be able to say why. It's like a secret code that's been unlocked.
+
+You will use this stuff—I promise.
+
+
+### How does CRAP relate to other things like the Gestalt Principles?
+
+In your readings for week 2, you learned about the [Gestalt Principles](https://en.wikipedia.org/wiki/Principles_of_grouping) for human perception, which describe how humans see and perceive patterns in things. You also learned about [CRAP](https://designlab.wisc.edu/resources/design-tips-and-tricks/crap-principles/)—contrast, repetition, alignment, and proximity. There are other categorizations of design principles as well that we didn't cover. What's up with all these things?
+
+All these general principles capture something deeper and more systematic about how humans think about the world, and they mostly overlap (like, proximity is both a Gestalt principle and the "P" in CRAP). Human minds like it when things are grouped correcty and ordered in nice visual hierarchies with pleasant aesthetics. Both CRAP and the Gestalt Principles provide guidance for how to visually group things in good ways.
+
+
+### Will following CRAP lead to the same final designs?
+
+A few of you said that you worried that having a checklist like CRAP would lead to homogenous designs (i.e. everyone will make the same things) or said that it's unclear which of the four principles is more important or should take precedence/.
+
+Two people can take the same content and—iteratively working through CRAP and making sure everything has contrast, repetition, alignment, and proximity—create completely different designs for it. This checklist doesn't provide any universally correct answers, and none of the principles are more or less important than the others.
+
+You all created a huge variety of posters. Some of you used a single font with varied weights (e.g., light and semibold); some of you used multiple fonts (e.g., sans serif and slab serif); some of you centered everything; some of you left-aligned everything; some of you had half of the elements left-aligned and half right-aligned. Some of you had extra images; some had tons of color; some embraced whitespace and minimalism. It was amazing to see all the variation!
+
+And CRAP was hidden beneath all the variation. Most of you were deliberate about aligning things on the page, choosing contrasting colors or fonts, grouping information in logical ways, and repeating similar visual cues and ideas. There are no correct answers, but correct principles can be followed.
+
+If you want to know more about basic design skills like this, I'd highly recommend getting [*The Non-Designer's Design and Type Book*](https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151). It's a fantastic resource and goes way more in depth into CRAP and basic typography.
+
+
+### Does CRAP only work for single-page things like graphs and posters? Or does it work for reports and books?
+
+It works for reports and books and everything else! Take a look at [Oxfam's 2024 annual report](https://webassets.oxfamamerica.org/media/documents/2024_Oxfam_America_Annual_Report.pdf), for instance. There are 24 pages, but it all has the same general feel, with repeated fonts and colors, strong typographic contrast between light and bold fonts, and the same types of heading and paragraph styles throughout. Or look at [CARE USA's annual report](https://nonprofitf22.classes.andrewheiss.com/files/pr/care_annual-report.pdf), or even an [Urban Institute report](https://www.urban.org/sites/default/files/2025-01/Unveiling-disparities-in-eviction.pdf). Or look at any of your textbooks—each chapter start page will be the same, all the headings and subheadings will be the same, all the captions will look the same, etc. CRAP is there!
+
+Organizations do this kind of branding on purpose and will have clear visual style guides that they try to use. GSU has specific guidelines for using [logos](https://commkit.gsu.edu/university-logos/) and [fonts](https://commkit.gsu.edu/typography-color/) and [colors](https://commkit.gsu.edu/website-management/web-color-guidelines/) in ways that follow general graphic design principles. The Urban Institute has [the most comprehensive style guide for data visualization](https://urbaninstitute.github.io/graphics-styleguide/) specifically that I've ever seen. Like, check out [their basic graph skeleton](https://urbaninstitute.github.io/graphics-styleguide/#chart-parts) (complete with contrast, repetition, alignment, and proximity):
+
+![Urban Institute chart parts](img/chart-typography-and-layout-2024-print.png){fig-align="center" .border .border-1 .shadow-sm}
+
+I even do this for this class. Notice that the color scheme in the slides matches the color scheme of the website. It actually comes from the [plasma](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html#the-color-scales) color scale from viridis! I repeat and contrast these same 8 colors throughout the course:
+
+```r
+viridisLite::viridis(8, option = "plasma", begin = 0.1, end = 0.9)
+```
+
+```{r show-plasma, fig.width=8, fig.height=1, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+pal_plasma <- viridisLite::viridis(8, option = "plasma", begin = 0.1, end = 0.9) %>% 
+  # Remove the trailing transparency "FF" from the hex codes
+  str_sub(end = -3)
+
+tibble(
+  x = 1:length(pal_plasma),
+  color = pal_plasma
+) %>%
+  mutate(x_nice = glue::glue("[{x}]")) %>%
+  mutate(across(c(color, x_nice), ~ fct_inorder(.))) %>%
+  ggplot(aes(x = color, y = 1, fill = color)) +
+  geom_tile() +
+  scale_x_discrete(expand = c(0, 0)) +
+  scale_fill_identity() +
+  facet_wrap(vars(x_nice), scales = "free_x", nrow = 1) +
+  theme_void(base_family = "Inconsolata") +
+  theme(
+    panel.spacing.x = unit(-1, units = "pt"),
+    panel.spacing.y = unit(-0.5, units = "lines"),
+    strip.text = element_blank()
+  ) +
+  theme(axis.text.x = element_text(margin = margin(b = 5)))
+```
+
+I also repeat the same contrasting fonts throughout the site and slides: [Fira Sans Condensed](https://fonts.google.com/specimen/Fira+Sans+Condensed) (chunky fun sans serif) and [Barlow](https://fonts.google.com/specimen/Barlow) (regular sans serif).
+
+
+### I noticed Illustrator isn't free for GSU students anymore. Are there other graphics editors?
+
+Yeah, unfortunately GSU doesn't provide free access its Creative Cloud software for students (but it does for employees, including student employees). For future exercises and projects, you don't have to use Illustrator—there are alternatives. [See here for more details](/resource/graphics-editors.qmd).
+
+
+### Is there a way to check that my color palettes are accessible if I'm not using a premade one?
+
+Yep! [Check out the "Accessibility" section](/resource/design.qmd#accessibility) of the Design page in the Resources section for some websites that help with this.

@@ -1,5 +1,94 @@
 # This file is generated with data/extract-news-headings.R; do not edit by hand
 
+- title: "Week 2 FAQs"
+  categories:
+  - "FAQs"
+  date_actual: '1738171500'
+  date: "2025-01-29T17:25:00"
+  href: "/news/2025-01-29_faqs_week-02.html"
+  headings:
+  - id: "why-do-you-use-s-for-grades"
+    text: "Why do you use ✓s for grades?"
+  - id: "why-does-mean-both-headings-and-code-comments"
+    text: "Why does <code>#</code> mean both headings and code comments?"
+  - id: "i-will-never-do-anything-with-graphic-designwhy-did-we-have-to-learn-these-principles"
+    text: "I will never do anything with graphic design—why did we have to learn these
+      principles?"
+  - id: "how-does-crap-relate-to-other-things-like-the-gestalt-principles"
+    text: "How does CRAP relate to other things like the Gestalt Principles?"
+  - id: "will-following-crap-lead-to-the-same-final-designs"
+    text: "Will following CRAP lead to the same final designs?"
+  - id: "does-crap-only-work-for-single-page-things-like-graphs-and-posters-or-does-it-work-for-reports-and-books"
+    text: "Does CRAP only work for single-page things like graphs and posters? Or
+      does it work for reports and books?"
+  - id: "i-noticed-illustrator-isnt-free-for-gsu-students-anymore.-are-there-other-graphics-editors"
+    text: "I noticed Illustrator isn’t free for GSU students anymore. Are there other
+      graphics editors?"
+  - id: "is-there-a-way-to-check-that-my-color-palettes-are-accessible-if-im-not-using-a-premade-one"
+    text: "Is there a way to check that my color palettes are accessible if I’m not
+      using a premade one?"
+- title: "Making cleaner, nicer Quarto documents"
+  categories:
+  - "advice"
+  date_actual: '1738170180'
+  date: "2025-01-29T17:03:00"
+  href: "/news/2025-01-29_cleaner-nicer-qmd-output.html"
+  headings:
+  - id: "render-often"
+    text: "Render often"
+  - id: "check-for-broken-code-chunks"
+    text: "Check for broken code chunks"
+  - id: "check-that-your-text-looks-okay"
+    text: "Check that your text looks okay"
+  - id: "dont-install-packages-in-your-document"
+    text: "Don’t install packages in your document"
+  - id: "clean-up-warnings-and-messages"
+    text: "Clean up warnings and messages"
+  - id: "fancy-document-settings"
+    text: "Fancy document settings"
+  - id: "chunk-names"
+    text: "Chunk names"
+- title: "Week 1 tips and FAQs"
+  categories:
+  - "FAQs"
+  date_actual: '1738168980'
+  date: "2025-01-29T16:43:00"
+  href: "/news/2025-01-29_faqs_week-01.html"
+  headings:
+  - id: "how-does-group_by-work-why-did-we-have-to-group-by-class-and-not-cty-and-class"
+    text: "How does <code>group_by()</code> work? Why did we have to group by <code>class</code>
+      and not <code>cty</code> and <code>class</code>?"
+  - id: "how-do-we-know-which-type-of-graph-to-use-for-different-types-of-data"
+    text: "How do we know which type of graph to use for different types of data?"
+  - id: "can-we-use-chatgpt-can-you-even-tell-if-we-do"
+    text: "Can we use ChatGPT? Can you even tell if we do?"
+  - id: "do-you-have-any-tips-for-remembering-all-the-different-functions-were-learning-there-are-so-many"
+    text: "Do you have any tips for remembering all the different functions we’re
+      learning? There are so many!"
+- title: "Getting help more efficiently"
+  categories:
+  - "advice"
+  date_actual: '1738163520'
+  date: "2025-01-29T15:12:00"
+  href: "/news/2025-01-29_get-help-more-efficiently.html"
+  headings:
+  - id: "use-slack-in-public"
+    text: "Use Slack in public"
+  - id: "high-resolution-questions"
+    text: "High resolution questions"
+  - id: "unanswered-questions"
+    text: "Unanswered questions"
+  - id: "use-slack-threads"
+    text: "Use Slack threads"
+  - id: "calendly-webex-appointments"
+    text: "Calendly + Webex appointments"
+- title: "Zeroes and ✓−s in the gradebook"
+  categories:
+  - "course details"
+  date_actual: '1738158960'
+  date: "2025-01-29T13:56:00"
+  href: "/news/2025-01-29_zeroes-check-minuses.html"
+  headings: []
 - title: "Pre-class FAQs"
   categories:
   - "FAQs"
