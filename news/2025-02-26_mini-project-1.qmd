@@ -1,0 +1,15 @@
+---
+title: "Time to think about mini project 1!"
+date: "2025-02-26T21:46"
+categories: [course details]
+---
+
+Hi everyone!
+
+Mini project 1 is due in 1.5 weeks, so it's a good time to start thinking about it. [The complete instructions are accessible here](/assignment/01-mini-project.qmd), **along with starter code** that should help you clean and prepare the data, and the rubric I'll use to grade the project.
+
+I'm giving you a big dataset with 100,000+ rows in it. Your job is to tell some sort of story with it using **one plot**. You'll likely want to summarize it somehow (similar to what you've done with essential pandemic construction and words in *The Lord of the Rings* in past exercises).
+
+If you need help, please reach out on Slack! Do not suffer in silence!
+
+Good luck!

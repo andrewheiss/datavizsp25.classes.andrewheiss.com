@@ -1,5 +1,132 @@
 # This file is generated with data/extract-news-headings.R; do not edit by hand
 
+- title: "Time to think about mini project 1!"
+  categories:
+  - "course details"
+  date_actual: '1740606360'
+  date: "2025-02-26T21:46:00"
+  href: "/news/2025-02-26_mini-project-1.html"
+  headings: []
+- title: "Slow down, simplify and do small things"
+  categories:
+  - "advice"
+  date_actual: '1740582300'
+  date: "2025-02-26T15:05:00"
+  href: "/news/2025-02-26_slow-down-do-small-things.html"
+  headings: []
+- title: "Tips for debugging and cleaning broken code"
+  categories:
+  - "advice"
+  date_actual: '1740575940'
+  date: "2025-02-26T13:19:00"
+  href: "/news/2025-02-26_messy-broken-code-tips.html"
+  headings:
+  - id: "reformat-the-code"
+    text: "Reformat the code"
+  - id: "run-the-code-incrementally"
+    text: "Run the code incrementally"
+- title: "A few quick general R tips"
+  categories:
+  - "FAQs"
+  date_actual: '1740572460'
+  date: "2025-02-26T12:21:00"
+  href: "/news/2025-02-26_general-tips.html"
+  headings:
+  - id: "talking-about-packages-and-functions"
+    text: "Talking about packages and functions"
+  - id: "nicer-ggplot2-documentation"
+    text: "Nicer {ggplot2} documentation"
+  - id: "the-tidyverse-package-shortcut"
+    text: "The tidyverse package shortcut"
+  - id: "chunk-labels"
+    text: "Chunk labels"
+  - id: "code-style"
+    text: "Code style"
+- title: "Weeks 5 and 6 tips and FAQs"
+  categories:
+  - "FAQs"
+  date_actual: '1740521580'
+  date: "2025-02-25T22:13:00"
+  href: "/news/2025-02-25_faqs_weeks-05-06.html"
+  headings:
+  - id: "installing-vs.-using-packages"
+    text: "Installing vs. using packages"
+  - id: "what-do-quarto-documents-look-like-in-real-life-can-they-be-used-for-real-things-like-reports"
+    text: "What do Quarto documents look like in real life? Can they be used for real
+      things like reports?"
+  - id: "i-made-a-bunch-of-changes-to-my-plot-with-theme-but-when-i-used-ggsave-none-of-them-actually-saved.-why"
+    text: "I made a bunch of changes to my plot with <code>theme()</code> but when
+      I used <code>ggsave()</code>, none of them actually saved. Why?"
+  - id: "in-chapter-22-wilke-talks-about-tablesis-there-a-way-to-make-pretty-tables-with-r"
+    text: "In chapter 22, Wilke talks about tables—is there a way to make pretty tables
+      with R?"
+  - id: "why-isnt-the-example-code-using-data-whatever-and-mapping-aes-in-ggplot-anymore-do-we-not-have-to-use-argument-names"
+    text: "Why isn’t the example code using <code>data = whatever</code> and <code>mapping
+      = aes()</code> in <code>ggplot()</code> anymore? Do we not have to use argument
+      names?"
+  - id: "double-encoding-and-excessive-legends"
+    text: "Double encoding and excessive legends"
+  - id: "legends-are-cool-but-ive-read-that-directly-labeling-things-can-be-better.-is-there-a-way-to-label-things-without-a-legend"
+    text: "Legends are cool, but I’ve read that directly labeling things can be better.
+      Is there a way to label things without a legend?"
+  - id: "my-histogram-bars-are-too-wide-too-narrow-not-visible.-how-do-i-fix-that"
+    text: "My histogram bars are too wide / too narrow / not visible. How do I fix
+      that?"
+- title: "Make RStudio your own"
+  categories:
+  - "advice"
+  date_actual: '1739309820'
+  date: "2025-02-11T21:37:00"
+  href: "/news/2025-02-11_customize-rstudio.html"
+  headings:
+  - id: "change-the-theme"
+    text: "Change the theme"
+  - id: "dont-save-the-workspace-when-closing"
+    text: "Don’t save the workspace when closing"
+  - id: "turn-on-rainbow-parentheses"
+    text: "Turn on rainbow parentheses"
+  - id: "turn-on-color-previews"
+    text: "Turn on color previews"
+  - id: "turn-on-a-code-margin"
+    text: "Turn on a code margin"
+  - id: "change-the-panel-layout-and-add-more-columns"
+    text: "Change the panel layout and add more columns"
+  - id: "bonus-positron"
+    text: "Bonus: Positron!"
+- title: "Weeks 3 and 4 tips and FAQs"
+  categories:
+  - "FAQs"
+  date_actual: '1739194860'
+  date: "2025-02-10T13:41:00"
+  href: "/news/2025-02-10_faqs_weeks-03-04.html"
+  headings:
+  - id: "is-there-some-sort-of-guide-for-knowing-which-chart-type-can-go-with-different-kinds-of-data"
+    text: "Is there some sort of guide for knowing which chart type can go with different
+      kinds of data?"
+  - id: "why-are-my-axis-labels-all-crowded-and-on-top-of-each-other-how-do-i-fix-that"
+    text: "Why are my axis labels all crowded and on top of each other? How do I fix
+      that?"
+  - id: "how-can-i-add-a-line-break-to-the-text-in-my-plot"
+    text: "How can I add a line break to the text in my plot?"
+  - id: "how-can-i-control-the-dimensions-of-my-figures"
+    text: "How can I control the dimensions of my figures?"
+  - id: "whats-the-difference-between-geom_bar-and-geom_col"
+    text: "What’s the difference between <code>geom_bar()</code> and <code>geom_col()</code>?"
+  - id: "whats-the-difference-between-read_csv-vs.-read.csv"
+    text: "What’s the difference between <code>read_csv()</code> vs. <code>read.csv()</code>?"
+  - id: "why-does-r-keep-yelling-at-me-with-warnings-and-messages"
+    text: "Why does R keep yelling at me with warnings and messages?"
+  - id: "how-can-i-hide-warnings-and-messages"
+    text: "How can I hide warnings and messages?"
+  - id: "why-did-we-need-to-group-and-summarize-before-making-the-lord-of-the-rings-plots-i-didnt-and-the-plot-still-worked"
+    text: "Why did we need to group and summarize before making the <em>Lord of the
+      Rings</em> plots? I didn’t and the plot still worked"
+  - id: "why-did-we-need-to-group-a-second-time-when-calculating-the-proportions-for-the-heatmap"
+    text: "Why did we need to group a second time when calculating the proportions
+      for the heatmap?"
+  - id: "why-do-i-keep-getting-messages-like-summarise-has-grouped-output-by-blah-when-using-group_by-and-summarize"
+    text: "Why do I keep getting messages like <code>summarise() has grouped output
+      by 'BLAH'</code> when using <code>group_by()</code> and <code>summarize()</code>?"
 - title: "Week 2 FAQs"
   categories:
   - "FAQs"
