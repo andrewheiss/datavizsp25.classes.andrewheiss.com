@@ -1,5 +1,39 @@
 # This file is generated with data/extract-news-headings.R; do not edit by hand
 
+- title: "LLMs"
+  categories:
+  - "advice"
+  date_actual: '1744752060'
+  date: "2025-04-15T21:21:00"
+  href: "/news/2025-04-15_llms.html"
+  headings: []
+- title: "Weeks 11 and 12 tips and FAQs"
+  categories:
+  - "FAQs"
+  date_actual: '1744725000'
+  date: "2025-04-15T13:50:00"
+  href: "/news/2025-04-15_faqs_weeks-11-12.html"
+  headings:
+  - id: "do-people-use-plotly-and-quarto-dashboards-in-the-real-world"
+    text: "Do people use Plotly and Quarto dashboards in the real world?"
+  - id: "my-plot-didnt-translate-perfectly-to-ggplotlywhy"
+    text: "My plot didn’t translate perfectly to ggplotly—why?"
+  - id: "im-bored-with-ggplots-default-colors-andor-viridishow-can-i-use-other-color-palettes"
+    text: "I’m bored with ggplot’s default colors and/or viridis—how can I use other
+      color palettes?"
+  - id: "how-many-decimal-points-should-i-use-when-im-working-with-latitude-and-longitude"
+    text: "How many decimal points should I use when I’m working with latitude and
+      longitude?"
+  - id: "can-i-use-geom_label_repel-with-maps"
+    text: "Can I use <code>geom_label_repel()</code> with maps?"
+  - id: "can-i-use-a-heatmap-on-a-map"
+    text: "Can I use a heatmap on a map?"
+  - id: "i-tried-to-make-a-map-and-countries-are-missingwhy"
+    text: "I tried to make a map and countries are missing—why?"
+  - id: "i-tried-to-make-a-map-of-just-europe-and-it-includes-more-than-just-europe"
+    text: "I tried to make a map of just Europe and it includes more than just Europe?"
+  - id: "saving-data-that-takes-a-long-time-to-make"
+    text: "Saving data that takes a long time to make"
 - title: "Two layout-related tips for fancier plots and documents"
   categories:
   - "advice"

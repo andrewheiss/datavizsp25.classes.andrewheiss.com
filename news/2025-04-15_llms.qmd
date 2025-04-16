@@ -1,0 +1,17 @@
+---
+title: "LLMs"
+date: "2025-04-15T21:21"
+categories: [advice]
+---
+
+Hi everyone!
+
+Over the semester, I've seen a surprising increase in the amount of ChatGPT-based code that's been turned in. Please check out [this little post about ChatGPT, writing, and coding](/resource/ai-bs.qmd). Using large language models (LLMs) for coding *can* be helpful if you know what you're doing, but it's incredibly detrimental when first learning to code. 
+
+Even more surprising, I've seen an increase in the amount of ChatGPT-based weekly check-ins. LLMs can't find three things that you personally found interesting from the readings!
+
+**Using these AI tools to get through the exercises is like using a forklift at the gym. The weights do not actually need to be moved from place to place. That is not the work. The work is what happens within you.**^[via [Sam Halpert](https://bsky.app/profile/samhalpert.bsky.social/post/3lmt3coqvqk2w)]
+
+The goal of these exercises (especially now that there are no answer keys) is to give you space to practice and play around with R and ggplot and principles of data visualization so that you can learn more. This is why I have a [super liberal ✓-based grading system](/assignment/index.qmd#exercises). I'm not looking for perfection or for every little requirement to be checked off—I'm looking for curiosity and good faith effort. **Please don't outsource the playing and practicing to AI!**
+
+As always, remember to reach out when you're stuck! *Do not suffer in silence*. You can always sign up for a time to meet with me at [my Calendly page](https://calendly.com/andrewheiss/)! I'm also highly responsive on Slack!
